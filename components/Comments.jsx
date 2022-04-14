@@ -19,14 +19,14 @@ const Comments = ({ slug }) => {
                 <h3 className="text-xl mb-8 font-semibold border-b pb-4">
                     {comments.length}
                     {' '}
-                    Comments
+                    Comentarios
                 </h3>
                 {comments.map((comment) => (
                     <div key={comment.createdAt} className="border-b border-gray-100 mb-4 pb-4">
                         <p className="mb-4">
                             <span className="font-semibold">{comment.name}</span>
                             {' '}
-                            on
+                            en
                             {' '}
                             {moment(comment.createdAt).format('MMM DD, YYYY')}
                         </p>
