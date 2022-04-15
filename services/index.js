@@ -198,7 +198,7 @@ export const getFeaturedPosts = async () => {
         slug
         createdAt
       }
-    }
+    }   
   `;
 
   const result = await request(graphqlAPI, query);
