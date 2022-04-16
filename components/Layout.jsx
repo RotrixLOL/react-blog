@@ -8,6 +8,13 @@ const descriptionMt = "Aprender cosas nuevas es dificil, o no? Con RotrixX Blog 
 const Layout = ({ children }) => (
   <>
     <Head>
+        {/* IMPORTANT */}
+        <meta
+          http-equiv="Content-Security-Policy"
+          content="script-src 'none'"
+        />
+        {/* IMPORTANT */}
+
         <title>{titleMt}</title>
         <meta
           name="title"
