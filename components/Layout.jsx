@@ -17,7 +17,8 @@ const Layout = ({ children }) => (
 
         <title>{titleMt}</title>
         <meta name="language" content="ES"/>
-        
+        <meta name="robots" content="noindex"/>
+
         <meta
           name="title"
           content={titleMt}
