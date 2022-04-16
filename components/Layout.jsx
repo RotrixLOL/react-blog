@@ -16,6 +16,8 @@ const Layout = ({ children }) => (
         {/* IMPORTANT */}
 
         <title>{titleMt}</title>
+        <meta name="language" content="ES"/>
+        
         <meta
           name="title"
           content={titleMt}
