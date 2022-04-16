@@ -17,7 +17,7 @@ const Header = () => {
     <div className="container mx-auto px-10 mb-8">
         <div className="border-b w-full inline-block border-white border-opacity-40 py-8">
             <div className="md:float-left block">
-                <Link href="/">
+                <Link rel="canonical" href="/">
                     <span className="cursor-pointer font-bold text-4xl text-white">
                         RotrixxBLOG
                     </span>
