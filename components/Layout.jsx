@@ -9,15 +9,14 @@ const Layout = ({ children }) => (
   <>
     <Head>
         {/* IMPORTANT */}
-        <meta
+        {/* <meta
           http-equiv="Content-Security-Policy"
           content="script-src 'none'"
-        />
+        /> */}
         {/* IMPORTANT */}
 
         <title>{titleMt}</title>
         <meta name="language" content="ES"/>
-        <meta name="robots" content="noindex"/>
 
         <meta
           name="title"
