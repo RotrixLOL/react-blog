@@ -17,6 +17,7 @@ const Layout = ({ children }) => (
 
         <title>{titleMt}</title>
         <meta name="language" content="ES"/>
+        <link rel="manifest" href="../public/manifest.json" />
 
         <meta
           name="title"
